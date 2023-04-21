@@ -1,0 +1,3 @@
+[submodule "lib/package/vin-decoder-dart"]
+	path = lib/package/vin-decoder-dart
+	url = https://github.com/Stemco/vin-decoder-dart

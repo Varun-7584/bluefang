@@ -1,0 +1,198 @@
+ScanResult{device: BluetoothDevice{id: 38: 87:DD: 60: 7B:F8, name: , type: BluetoothDeviceType.unknown, isDiscoveringServices: false, _services: [], advertisementData: AdvertisementData{localName: , txPowerLevel: null, connectable: false, manufacturerData: {}, serviceData: {
+                0000fd6f-0000-1000-8000-00805f9b34fb: [
+                    103,
+                    160,
+                    223,
+                    205,
+                    46,
+                    178,
+                    186,
+                    193,
+                    205,
+                    66,
+                    55,
+                    238,
+                    111,
+                    175,
+                    131,
+                    227,
+                    194,
+                    171,
+                    214,
+                    135
+                ]
+            }, serviceUuids: [
+                0000fd6f-0000-1000-8000-00805f9b34fb
+            ]
+        }, rssi: -56
+    }
+ScanResult{device: BluetoothDevice{id: 40: 16: 3B: 58: 8B: 63, name: , type: BluetoothDeviceType.unknown, isDiscoveringServices: false, _services: [], advertisementData: AdvertisementData{localName: , txPowerLevel: null, connectable: false, manufacturerData: {
+                    117: [
+                        66,
+                        4,
+                        1,
+                        128,
+                        96,
+                        64,
+                        22,
+                        59,
+                        88,
+                        139,
+                        99,
+                        66,
+                        22,
+                        59,
+                        88,
+                        139,
+                        98,
+                        1,
+                        37,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }, serviceData: {}, serviceUuids: []
+            }, rssi: -88
+        }
+ScanResult{device: BluetoothDevice{id: C4:AB:3E: 1A: 8A:A8, name: , type: BluetoothDeviceType.unknown, isDiscoveringServices: false, _services: [], advertisementData: AdvertisementData{localName: , txPowerLevel: null, connectable: true, manufacturerData: {
+                        1687: [
+                            4,
+                            128,
+                            0,
+                            54,
+                            31,
+                            250,
+                            1,
+                            238,
+                            72,
+                            0,
+                            0,
+                            139,
+                            94,
+                            33,
+                            0,
+                            20,
+                            123,
+                            17,
+                            36,
+                            14,
+                            201
+                        ]
+                    }, serviceData: {}, serviceUuids: []
+                }, rssi: -56
+            }
+ScanResult{device: BluetoothDevice{id: 11: 22:CC: 10:D0: 89, name: , type: BluetoothDeviceType.unknown, isDiscoveringServices: false, _services: [], advertisementData: AdvertisementData{localName: , txPowerLevel: null, connectable: false, manufacturerData: {
+                            76: [
+                                9,
+                                6,
+                                3,
+                                10,
+                                192,
+                                168,
+                                1,
+                                4
+                            ]
+                        }, serviceData: {}, serviceUuids: []
+                    }, rssi: -54
+                }
+ScanResult{device: BluetoothDevice{id: 4F:EB: 16: 77: 8D:7E, name: , type: BluetoothDeviceType.unknown, isDiscoveringServices: false, _services: [], advertisementData: AdvertisementData{localName: , txPowerLevel: 6, connectable: true, manufacturerData: {
+                                76: [
+                                    16,
+                                    5,
+                                    3,
+                                    24,
+                                    136,
+                                    130,
+                                    171
+                                ]
+                            }, serviceData: {}, serviceUuids: []
+                        }, rssi: -70
+                    }
+ScanResult{device: BluetoothDevice{id: 6F:2E: 83: 45:FE: 29, name: , type: BluetoothDeviceType.unknown, isDiscoveringServices: false, _services: [], advertisementData: AdvertisementData{localName: , txPowerLevel: 5, connectable: true, manufacturerData: {
+                                    76: [
+                                        16,
+                                        5,
+                                        75,
+                                        28,
+                                        220,
+                                        27,
+                                        152
+                                    ]
+                                }, serviceData: {}, serviceUuids: []
+                            }, rssi: -91
+                        }
+ScanResult{device: BluetoothDevice{id: 48:B8:A3: 43:E3:F7, name: Varuas, type: BluetoothDeviceType.dual, isDiscoveringServices: false, _services: [], advertisementData: AdvertisementData{localName: , txPowerLevel: 8, connectable: true, manufacturerData: {
+                                        76: [
+                                            16,
+                                            5,
+                                            110,
+                                            28,
+                                            163,
+                                            116,
+                                            242
+                                        ]
+                                    }, serviceData: {}, serviceUuids: []
+                                }, rssi: -62
+                            }
+ScanResult{device: BluetoothDevice{id: C1: 6D: 1F: 29: 48:AF, name: , type: BluetoothDeviceType.unknown, isDiscoveringServices: false, _services: [], advertisementData: AdvertisementData{localName: , txPowerLevel: null, connectable: false, manufacturerData: {
+                                            76: [
+                                                18,
+                                                2,
+                                                0,
+                                                1
+                                            ]
+                                        }, serviceData: {}, serviceUuids: []
+                                    }, rssi: -62
+                                }
+ScanResult{device: BluetoothDevice{id: 52: 30: 4C:8E:E6: 53, name: , type: BluetoothDeviceType.unknown, isDiscoveringServices: false, _services: [], advertisementData: AdvertisementData{localName: , txPowerLevel: 6, connectable: true, manufacturerData: {
+                                                76: [
+                                                    16,
+                                                    6,
+                                                    32,
+                                                    26,
+                                                    147,
+                                                    46,
+                                                    131,
+                                                    183
+                                                ]
+                                            }, serviceData: {}, serviceUuids: []
+                                        }, rssi: -94
+                                    }
+ScanResult{device: BluetoothDevice{id: 40: 3A:CF: 50: 34: 30, name: , type: BluetoothDeviceType.unknown, isDiscoveringServices: false, _services: [], advertisementData: AdvertisementData{localName: , txPowerLevel: null, connectable: false, manufacturerData: {
+                                                    6: [
+                                                        1,
+                                                        9,
+                                                        32,
+                                                        2,
+                                                        30,
+                                                        188,
+                                                        36,
+                                                        193,
+                                                        193,
+                                                        32,
+                                                        196,
+                                                        60,
+                                                        58,
+                                                        17,
+                                                        130,
+                                                        217,
+                                                        89,
+                                                        127,
+                                                        246,
+                                                        40,
+                                                        47,
+                                                        118,
+                                                        48,
+                                                        145,
+                                                        75,
+                                                        134,
+                                                        160
+                                                    ]
+                                                }, serviceData: {}, serviceUuids: []
+                                            }, rssi: -99
+                                        }
+
+
+Out of this the one that stars with 1687 is our data. 

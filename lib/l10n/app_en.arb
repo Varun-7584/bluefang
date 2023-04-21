@@ -1,0 +1,715 @@
+{
+    "language":"English",
+    "@language":{
+        "description":"The current language" 
+    },
+    "read": "Read",
+    "@read":{
+        "type": "text",
+        "context": "ReadScreen",
+        "description": "Text label of tabbar"
+    },
+    "write": "Write",
+    "@write":{
+        "type": "text",
+        "context": "WriteScreen",
+        "description": "Text label of tabbar"
+    },
+    "fuel": "Fuel",
+    "@fuel":{
+        "type": "text",
+        "context": "FuelScreen",
+        "description": "Text label of tabbar. It is also used as a title for appbar"
+    },
+    "settings": "Settings",
+    "@settings":{
+        "type": "text",
+        "context": "SettingsScreen",
+        "description": "Text label of tabbar. It is also used as a title for appbar"
+    },
+    "readDataTrac": "Read DataTrac SVT",
+    "@readDataTrac":{
+        "type": "text",
+        "context": "ReadScreen:AppBar",
+        "description": "Label for the title of app bar"
+    },
+    "programDataTrac": "Program DataTrac SVT",
+    "@programDataTrac":{
+        "type": "text",
+        "context": "ProgramScreen:AppBar",
+        "description": "Label for the title of app bar"
+    },
+	"fleetManagerScreen": "Fleet Manager",
+    "@fleetManagerScreen":{
+        "type": "text",
+        "context": "FleetScreen:AppBar",
+        "description": "Label for the title of app bar"
+    },
+	"fleetManagerSettingsScreen": "Fleet Manager Settings",
+    "@fleetManagerSettings":{
+        "type": "text",
+        "context": "FleetScreenSettings:AppBar",
+        "description": "Label for the title of app bar"
+    },
+    "selectALanguage": "Select a Language",
+    "@selectALanguage":{
+        "type":"text",
+        "context":"LanguageScreen",
+        "description":"Label for the title of app bar"
+    },
+	"hideFuelInfo": "Enable fuel type/capacity entry",
+	"@hideFuelInfo":{
+        "type":"text",
+        "context":"ProgramDataTracSettingsScreen",
+        "description":"Label for the checkbox"
+    },
+	"loading": "Loading",
+	"@loading":{
+		"type":"text",
+		"context":"FleetScreen",
+		"description":"Text for loading screen"
+	},
+	"fieldEmpty":"cannot be empty",
+	"@fieldEmpty":{
+		"type":"text",
+		"context":"InputScreen",
+		"description":"Input field error"
+	},
+	"units":"Units",
+	"@units":{
+		"type":"text",
+		"context":"InputScreen",
+		"description":"Label for the uom dropdown"
+	},
+	"vehicleDistance":"Life Distance",
+	"@vehicleDistance":{
+		"type":"text",
+		"context":"VehDistanceField",
+		"description":"Label for the textfield"
+	},
+	"invalidRange":"Invalid Range. Max Value: ",
+	"@invalidRange":{
+		"type":"text",
+		"context":"InputScreen",
+		"description":"Error for input screen"
+	},
+	"invalidIntValue":"Only numbers are allowed",
+	"@invalidIntValue":{
+		"type":"text",
+		"context":"InputScreen",
+		"description":"Error for input screen"
+	},
+	"invalidValue":"Invalid Value",
+	"@invalidValue":{
+		"type":"text",
+		"context":"InputScreen",
+		"description":"Error for input screen"
+	},
+	"fuelType":"Fuel Type",
+	"@fuelType":{
+		"type":"text",
+		"context":"ProgramScreen",
+		"description":"Label for dropdown"
+	},
+	"vehicleNumber":"Vehicle Number",
+	"@vehicleNumber":{
+		"type":"text",
+		"context":"ProgramScreen",
+		"description":"Label for textfield"
+	},
+	"vehicleModelYear":"Vehicle Model Year",
+	"@vehicleModelYear":{
+		"type":"text",
+		"context":"ProgramScreen",
+		"description":"Label for textfield"
+	},
+	"vin":"Vehicle ID Number",
+	"@vin":{
+		"type":"text",
+		"context":"ProgramScreen",
+		"description":"Label for textfield"
+	},
+	"licensePlate":"License Plate Number",
+	"@licensePlate":{
+		"type":"text",
+		"context":"ProgramScreen",
+		"description":"Label for textfield"
+	},
+	"revolutions":"Revolutions",
+	"@revolutions":{
+		"type":"text",
+		"context":"ProgramScreen",
+		"descripton":"Label for textfield"
+	},
+	"fuelCapacity":"Fuel Capacity",
+	"@fuelCapacity":{
+		"type":"text",
+		"context":"ProgramScreen",
+		"description":"Label for textfield"
+	},
+	"site":"HomeBase Site",
+	"@site":{
+		"type":"text",
+		"context":"ProgramScreen",
+		"description":"Label for dropdown"
+	},
+	"invalidDecimalValue":"Only one number after '.' allowed",
+	"@invalidDecimalValue":{
+		"type":"text",
+		"context":"InputScreen",
+		"description":"Error for input field"
+	},
+	"vinTooShort":"VIN must be 17 characters",
+	"@vinTooShort":{
+		"type":"text",
+		"context":"InputScreen",
+		"description":"Length error for input field"
+	},
+	"batteryLow":"Low battery",
+	"@batteryLow":{
+		"type":"text",
+		"context":"BatteryLevel",
+		"description":"Low battery indicator"
+	},
+	"batteryFine":"Battery level sufficient",
+	"@batteryFine":{
+		"type":"text",
+		"context":"BatteryLevel",
+		"description":"Battery fine"
+	},
+	"miles":"mi",
+	"@miles":{
+		"type":"text",
+		"context":"DistUnits",
+		"description":"Miles UOM"
+	},
+	"km":"km",
+	"@km":{
+		"type":"text",
+		"context":"DistUnits",
+		"description":"km UOM"
+	},
+	"timeSet":"Set:",
+	"@timeSet":{
+		"type":"text",
+		"context":"DisplayScreen",
+		"description":"Time set"
+	},
+	"firmwareVersion":"Firmware Version",
+	"@firmwareVersion":{
+		"type":"text",
+		"context":"DisplayScreen",
+		"description":"Label for display card"
+	},
+	"life":"Life",
+	"@life":{
+		"type":"text",
+		"context":"DisplayScreen",
+		"description":"Label for display card"
+	},
+	"longRawBeacon":"Long Beacon Raw",
+	"@longRawBeacon":{
+		"type":"text",
+		"context":"DisplayScreen",
+		"description":"Label for display card"
+	},
+	"standardRawBeacon":"Standard Beacon Raw",
+	"@standardRawBeacon":{
+		"type":"text",
+		"context":"DisplayScreen",
+		"description":"Label for display card"
+	},
+	"vehicleNumberRawBeacon":"Vehicle Number Beacon Raw",
+	"@vehicleNumberRawBeacon":{
+		"type":"text",
+		"context":"DisplayScreen",
+		"description":"Label for display card"
+	},
+	"vinRawBeacon":"Vin Beacon Raw",
+	"@vinRawBeacon":{
+		"type":"text",
+		"context":"DisplayScreen",
+		"description":"Label for display card"
+	},
+	"licensePlateRawBeacon":"License Plate Beacon Raw",
+	"@licensePlateRawBeacon":{
+		"type":"text",
+		"context":"DisplayScreen",
+		"description":"Label for display card"
+	},
+	"rotationalAngle":"Rotational Angle",
+	"@rotationalAngle":{
+		"type":"text",
+		"context":"DisplayScreen",
+		"description":"Label for display card"
+	},
+	"degrees":"degrees",
+	"@degrees":{
+		"type":"text",
+		"context":"DisplayScreen",
+		"description":"Label for display card"
+	},
+	"rotFreq":"Rotational Frequency",
+	"@rotFreq":{
+		"type":"text",
+		"context":"DisplayScreen",
+		"description":"Label for display card"
+	},
+	"hz":"Hz",
+	"@hz":{
+		"type":"text",
+		"context":"DisplayScreen",
+		"description":"Label for display card"
+	},
+	"securityStatus":"Security Status",
+	"@securityStatus":{
+		"type":"text",
+		"context":"DisplayScreen",
+		"description":"Label for display card"
+	},
+	"passwordProtected":"Password Protected",
+	"@passwordProtected":{
+		"type":"text",
+		"context":"DisplayScreen",
+		"description":"Label for display card"
+	},
+	"notProtected":"Not protected",
+	"@notProtected":{
+		"type":"text",
+		"context":"DisplayScreen",
+		"description":"Label for display card"
+	},
+	"serialNum":"Serial Number",
+	"@serialNum":{
+		"type":"text",
+		"context":"DisplayScreen",
+		"description":"Label for display card"
+	},
+	"signalStrength":"Signal Strength (dBm)",
+	"@signalStrength":{
+		"type":"text",
+		"context":"DisplayScreen",
+		"description":"Label for display card"
+	},
+	"last":"Last",
+	"@last":{
+		"type":"text",
+		"context":"DisplayScreen",
+		"description":"Label for display card"
+	},
+	"max":"Max",
+	"@max":{
+		"type":"text",
+		"context":"DisplayScreen",
+		"description":"Label for display card"
+	},
+	"avg":"Avg",
+	"@avg":{
+		"type":"text",
+		"context":"DisplayScreen",
+		"description":"Label for display card"
+	},
+	"dev":"Dev",
+	"@dev":{
+		"type":"text",
+		"context":"DisplayScreen",
+		"description":"Label for display card"
+	},
+	"speed":"Speed",
+	"@speed":{
+		"type":"text",
+		"context":"DisplayScreen",
+		"description":"Label for display card"
+	},
+	"hourAbbrev":"hr",
+	"@hourAbbrev":{
+		"type":"text",
+		"context":"DisplayScreen",
+		"description":"Label for display card"
+	},
+	"sensorDetails":"Sensor Details",
+	"@sensorDetails":{
+		"type":"text",
+		"context":"DisplayScreen",
+		"description":"Label for display card"
+	},
+	"vehicles":"Vehicles",
+	"@vehicles":{
+		"type":"text",
+		"context":"DisplayScreen",
+		"description":"Label for display card"
+	},
+	"oilQuantity":"Oil Quantity",
+	"@oilQuantity":{
+		"type":"text",
+		"context":"DisplayScreen",
+		"description":"Label for display card"
+	},
+	"oilType":"Oil Type",
+	"@oilType":{
+		"type":"text",
+		"context":"DisplayScreen",
+		"description":"Label for display card"
+	},
+	"oilViscosity":"Oil Viscosity",
+	"@oilViscosity":{
+		"type":"text",
+		"context":"DisplayScreen",
+		"description":"Label for display card"
+	},
+	"coolantQuantity":"Coolant Quantity",
+	"@coolantQuantity":{
+		"type":"text",
+		"context":"DisplayScreen",
+		"description":"Label for display card"
+	},
+	"coolantType":"Coolant Type",
+	"@coolantType":{
+		"type":"text",
+		"context":"DisplayScreen",
+		"description":"Label for display card"
+	},
+	"atfQuantity":"ATF Quantity",
+	"@atfQuantity":{
+		"type":"text",
+		"context":"DisplayScreen",
+		"description":"Label for display card"
+	},
+	"defQuantity":"DEF Quantity",
+	"@defQuantity":{
+		"type":"text",
+		"context":"DisplayScreen",
+		"description":"Label for display card"
+	},
+	"atfType":"ATF Type",
+	"@atfType":{
+		"type":"text",
+		"context":"DisplayScreen",
+		"description":"Label for display card"
+	},
+	"defType":"DEF Type",
+	"@defType":{
+		"type":"text",
+		"context":"DisplayScreen",
+		"description":"Label for display card"
+	},
+	"fuelQuantity":"Fuel Quantity",
+	"@fuelQuantity":{
+		"type":"text",
+		"context":"DisplayScreen",
+		"description":"Label for display card"
+	},
+	"fluidsEntry":"Fluids Entry",
+	"@fluidsEntry":{
+		"type":"text",
+		"context":"DisplayScreen",
+		"description":"Label for screen"
+	},
+	"licensePlateInfo":"Show License Plate Number",
+	"@licensePlateInfo":{
+		"type":"text",
+		"context":"ProgramScreen",
+		"description":"Label for screen"
+	},
+	"numberButton":"Number",
+	"@numberButton":{
+		"type":"text",
+		"context":"FleetScreen",
+		"description":"Label for button"
+	},
+	"distanceButton":"Distance",
+	"@distanceButton":{
+		"type":"text",
+		"context":"FleetScreen",
+		"description":"Label for button"
+	},
+	"timeButton":"Time",
+	"@timeButton":{
+		"type":"text",
+		"context":"FleetScreen",
+		"description":"Label for button"
+	},
+	"vehicleDetails":"Vehicle Details",
+	"@vehicleDetails":{
+		"type":"text",
+		"context":"FleetScreen",
+		"description":"Label for screen"
+	},
+	"enableAtf":"Enable Automatic Transmission Fluid",
+	"@enableAtf":{
+		"type":"text",
+		"context":"Fluids Screen",
+		"description":"Label for screen"
+	},
+	"enableCoolant":"Enable Engine Coolant",
+	"@enableCoolant":{
+		"type":"text",
+		"context":"Fluids Screen",
+		"description":"Label for screen"
+	},
+	"enableOil":"Enable Engine Oil",
+	"@enableOil":{
+		"type":"text",
+		"context":"Fluids Screen",
+		"description":"Label for screen"
+	},
+	"enableDef":"Enable Diesel Emissions Fluid",
+	"@enableDef":{
+		"type":"text",
+		"context":"Fluids Screen",
+		"description":"Label for screen"
+	},
+	"addNewVehicle":"Add New Vehicle",
+	"@addNewVehicle":{
+		"type":"text",
+		"context":"FleetScreen",
+		"description":"Button on screen"
+	},
+	"scanQRCode":"Scan QR Code",
+	"@scanQRCode":{
+		"type":"text",
+		"context":"FleetScreen",
+		"description":"Button on screen"
+	},
+	"enableDemoMode":"Enable Demo Mode",
+	"@enableDemoMode":{
+		"type":"text",
+		"context":"FleetScreenSettings",
+		"description":"Label for checkbox"
+	},
+	"demoModeOn":"Demo Mode On",
+	"@demoModeOn":{
+		"type":"text",
+		"context":"NotificationBanner",
+		"description":"Banner to notify user"
+	},
+	"restartAppDemo":"Please restart app to switch to demo mode",
+	"@restartAppDemo":{
+		"type":"text",
+		"context":"NotificationBanner",
+		"description":"Banner to notify user"
+	},
+	"restartAppLive":"Please restart app to switch to live mode",
+	"@restartAppLive":{
+		"type":"text",
+		"context":"NotificationBanner",
+		"description":"Banner to notify user"
+	},
+	"turnDemoOff":"Turn off in Fleet Manager Settings",
+	"@turnDemoOff":{
+		"type":"text",
+		"context":"NotificationBanner",
+		"description":"Banner to notify user"
+	},
+	"programmingStatusScreen":"Programming Status",
+	"@programmingStatusScreen":{
+		"type":"text",
+		"context":"Programming Status Screen",
+		"description":"Title for screen"
+	},
+	"connecting":"Connecting",
+	"@connecting":{
+		"type":"text",
+		"context":"Programming Status Screen",
+		"description":"Label"
+	},
+	"updating":"Updating",
+	"@updating":{
+		"type":"text",
+		"context":"Programming Status Screen",
+		"description":"Label"
+	},
+	"verifying":"Verifying",
+	"@verifying":{
+		"type":"text",
+		"context":"Programming Status Screen",
+		"description":"Label"
+	},
+	"vehYear":"Year",
+	"@vehYear":{
+		"type":"text",
+		"context":"Vehicle Details Screen",
+		"description":"Label for screen"
+	},
+	"vehModel":"Model",
+	"@vehModel":{
+		"type":"text",
+		"context":"Vehicle Details Screen",
+		"description":"Label for screen"
+	},
+	"helpMenu":"Help Menu",
+	"@helpMenu":{
+		"type":"text",
+		"context":"Help Menu Screen",
+		"description":"Title for screen"
+	},
+	"contactSupport":"Contact Stemco Tech Support",
+	"@contactSupport":{
+		"type":"text",
+		"context":"Help Menu Screen",
+		"description":"Label for screen"
+	},
+	"installInstructions":"DataTrac SVT Installation Instructions",
+	"@installInstructions":{
+		"type":"text",
+		"context":"Help Menu Screen",
+		"description":"Button for screen"
+	},
+	"termsAndConditions":"Terms of Use",
+	"@termsAndConditions":{
+		"type":"text",
+		"context":"Help Menu Screen",
+		"description":"Button for screen"
+	},
+	"privacyPolicy":"Privacy Policy",
+	"@privacyPolicy":{
+		"type":"text",
+		"context":"Help Menu Screen",
+		"description":"Button for screen"
+	},
+	"emailTechSupportError":"Could not find email client on phone. Please make sure you are logged into your email app (and, if you are using an Apple device, that you have the default mail app installed) and try again.",
+	"@emailTechSupportError":{
+		"type":"text",
+		"context":"Help Menu Screen",
+		"description":"Error message for screen"
+	},
+	"qrCodeScreen":"QR Code Reader",
+	"@qrCodeScreen":{
+		"type":"text",
+		"context":"QR Code Reader Screen",
+		"description":"Screen title"
+	},
+	"qrCodeNotFound":"Valid QR code not found. Please try again.",
+	"@qrCodeNotFound":{
+		"type":"text",
+		"context":"QR Code Reader Screen",
+		"description":"Message on screen"
+	},
+	"qrCodeFound":"Valid QR code found!",
+	"@qrCodeFound":{
+		"type":"text",
+		"context":"QR Code Reader Screen",
+		"description":"Message on screen"
+	},
+	"editVehicle":"Edit Vehicle",
+	"@editVehicle":{
+		"type":"text",
+		"context":"Vehicle Screen",
+		"description":"Button on screen"
+	},
+	"reprogrammDataTrac":"Reprogram DataTrac",
+	"@reprogrammDataTrac":{
+		"type":"text",
+		"context":"Vehicle Screen",
+		"description":"Button on screen"
+	},
+	"scanForBluetooth":"Bluetooth",
+	"@scanForBluetooth":{
+		"type":"text",
+		"context":"Fleet Manager Screen",
+		"description":"Button on screen"
+	},
+	"displayInRangeVehiclesOnly":"Display In-Range Vehicles Only",
+	"@displayInRangeVehiclesOnly":{
+		"type":"text",
+		"context":"Fleet Manager Settings Screen",
+		"description":"Button on screen"
+	},
+	"deleteDatabase":"Delete Database",
+	"@deleteDatabase":{
+		"type":"text",
+		"context":"Fleet Manager Settings Screen",
+		"description":"Button on screen"
+	},
+	"cloudSync":"Cloud Sync",
+	"@cloudSync":{
+		"type":"text",
+		"context":"Fleet Manager Settings Screen",
+		"description":"Button on screen"
+	},
+	"writing":"Writing To Database",
+	"@writing":{
+		"type":"text",
+		"context":"Programming Status Screen",
+		"description":"Label on screen"
+	},
+	"cancel":"Cancel",
+	"@cancel":{
+		"type":"text",
+		"context":"Dialog",
+		"description":"Label on dialog"
+	},
+	"yes":"Yes",
+	"@yes":{
+		"type":"text",
+		"context":"Dialog",
+		"description":"Label on dialog"
+	},
+	"no":"No",
+	"@no":{
+		"type":"text",
+		"context":"Dialog",
+		"description":"Label on dialog"
+	},
+	"ok":"Ok",
+	"@ok":{
+		"type":"text",
+		"context":"Fleet Manager Settings Screen",
+		"description":"Button on screen"
+	},
+	"turnOnBluetooth":"Turn on Bluetooth",
+	"@turnOnBluetooth":{
+		"type":"text",
+		"context":"Dialog",
+		"description":"Label on dialog"
+	},
+	"turnOnLocation":"Turn Location Services On",
+	"@turnOnLocation":{
+		"type":"text",
+		"context":"Dialog",
+		"description":"Label on dialog"
+	},
+	"deleteDatabaseWarning":"WARNING! This will PERMANENTLY delete your database from the cellphone app! Do you want to continue?",
+	"@deleteDatabaseWarning":{
+		"type":"text",
+		"context":"Dialog",
+		"description":"Label on dialog"
+	},
+	"confirmDatabaseDeletion":"Confirm Database Deletion",
+	"@confirmDatabaseDeletion":{
+		"type":"text",
+		"context":"Dialog",
+		"description":"Label on dialog"
+	},
+	"continueDialog":"Continue",
+	"@continueDialog":{
+		"type":"text",
+		"context":"Dialog",
+		"description":"Label on dialog"
+	},
+	"turnOnBluetoothBody":"Bluetooth is turned off. Please turn Bluetooth on to scan for DataTrac SVTs.",
+	"@turnOnBluetoothBody":{
+		"type":"text",
+		"context":"Dialog",
+		"description":"Label on dialog"
+	},
+	"turnOnLocationBody":"Location is turned off. Please turn Location on to scan for DataTrac SVTs.",
+	"@turnOnLocationBody":{
+		"type":"text",
+		"context":"Dialog",
+		"description":"Label on dialog"
+	},
+	"resetDataTracConfirmation":"Continuing will erase the configuration programming in the DataTracSVT and reset it to the factory default configuration.\nDo you want to continue?",
+	"@resetDataTracConfirmation":{
+		"type":"text",
+		"context":"Dialog",
+		"description":"Label on dialog"
+	},
+	"deny":"Deny",
+	"@deny":{
+		"type":"text",
+		"context":"Dialog",
+		"description":"Label on dialog"
+	}
+}
+
